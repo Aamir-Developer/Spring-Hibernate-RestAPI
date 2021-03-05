@@ -12,6 +12,6 @@ In the Controller class, there are two webservices implemented:
 Guide to run the code:
 1. Clone the repository.
 2. Open in one your favourite IDE, import the maven project.
-3. Change the database details according to your database details.
+3. Change the database details according to your database details in src/main/resources/application.properties
 4. Run the Spring-Boot Application.
 5. Webservice is ready now for use.
