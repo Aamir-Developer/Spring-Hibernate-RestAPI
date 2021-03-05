@@ -73,11 +73,11 @@ public class Orders {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "orderNumber")
-	public Integer getNumber() {
+	public Integer getOrderNumber() {
 		return orderNumber;
 	}
 
-	public void setNumber(Integer orderNumber) {
+	public void setOrderNumber(Integer orderNumber) {
 		this.orderNumber = orderNumber;
 	}
 
@@ -91,11 +91,11 @@ public class Orders {
 	}
 
 	@Column(name = "orderDate")
-	public Date getDate() {
+	public Date getOrderDate() {
 		return orderDate;
 	}
 
-	public void setDate(Date orderDate) {
+	public void setOrderDate(Date orderDate) {
 		this.orderDate = orderDate;
 	}
 
