@@ -7,7 +7,7 @@ MySQL Database to store the data, and get the data from.
 Hibernate: Object Relational Mapping tool to map the Spring-Boot Application with the SQL data.
 In the Controller class, there are two webservices implemented:
 1. To retrieve all the order details by order ID.
-2. To retrieve all the order details with order number, date and status.
+2. To retrieve all the order details with order number, date and status. Also, Orders are filterable by date.
 
 Guide to run the code:
 1. Clone the repository.
